@@ -23,7 +23,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**Salam olsun Şəhidlərimizə 🇦🇿\n\nƏmrlər üçün /help yazın 🇦🇿",
+  await event.reply("Salam olsun Şəhidlərimizə 🇦🇿\n\nƏmrlər üçün /help yazın 🇦🇿",
             buttons=(
                    
 		      [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
@@ -36,7 +36,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**@Mubariz_Tag_Bot Butonları 🇦🇿**\n\n**/sehidler - Şəhidlərimizin adları ilə tag edər**\n**/tag - 5-li tag edər**\n/cancel - Tag prosesi dayandırar**"
+  helptext = "**@Mubariz_Tag_Bot Butonları 🇦🇿**\n\n**/sehidler - Şəhidlərimizin adları ilə tag edər**\n**/tag - 5-li tag edər**\n**/cancel - Tag prosesi dayandırar**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
