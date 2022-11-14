@@ -28,8 +28,6 @@ async def start(event):
                    
 		      [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
                       [Button.url('🇦🇿 Tədbir Qrupu 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('🇦🇿 Şəhidlər Haqqında 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('🇦🇿 Şəhidlər Ölməz 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
 		      [Button.url('Təşkilatçı', 'https://t.me/Ttaleh333')] 
                     ),
                     link_preview=False
