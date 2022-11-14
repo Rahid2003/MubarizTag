@@ -27,9 +27,9 @@ async def start(event):
             buttons=(
                    
 		      [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
-                      [Button.url('Tədbir Qrupu 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('Şəhidlər Haqqında 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('Şəhidlər Ölməz 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Tədbir Qrupu 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Şəhidlər Haqqında 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Şəhidlər Ölməz 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
 		      [Button.url('Təşkilatçı', 'https://t.me/Ttaleh333')] 
                     ),
                     link_preview=False
@@ -40,9 +40,9 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
-                      [Button.url('Tədbir Qrupu 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('Şəhidlər Haqqında 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
-                      [Button.url('Şəhidlər Ölməz 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Tədbir Qrupu 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Şəhidlər Haqqında 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
+                      [Button.url('🇦🇿 Şəhidlər Ölməz 🇦🇿', 'https://t.me/Sehidleriundmayaq')],
 		      [Button.url('Təşkilatçı', 'https://t.me/Ttaleh333')],
                     ),
                     link_preview=False
