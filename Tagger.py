@@ -23,7 +23,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Salam olsun Şəhidlərimizə 🇦🇿\n\nƏmrlər üçün /help yazın 🇦🇿",
+  await event.reply("🇦🇿TƏDBİR BAŞLAMA\N🇦🇿TARİX: 20.11.2022\n🇦🇿SAAT 19:00-DA\n🇦🇿ŞƏHİDLƏRMİZİ UNUTMAYAQ UNUTDURMAYAQ!\n🇦🇿QRUP: @Sehidleriundmayaq",
             buttons=(
                    
 		      [Button.url('🇦🇿 Qrupa Əlavə Et 🇦🇿', 'http://t.me/Mubariz_Tag_Bot?startgroup=a')],
